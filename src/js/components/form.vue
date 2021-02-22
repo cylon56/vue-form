@@ -18,10 +18,5 @@ export default {
             return this.message.split(` `).map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(` `)
         }
     },
-    methods: {
-        onNameInput(event) {
-            this.$emit('nameChange', event.input.value)
-        }
-    }
 }
 </script>

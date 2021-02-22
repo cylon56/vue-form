@@ -10,11 +10,6 @@ export default {
   components: {
     Form
   },
-  methods: {
-    onNameChange(nameInput) {
-      console.log(nameInput)
-    }
-  }
 }
 </script>
 
